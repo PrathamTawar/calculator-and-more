@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/d6/fd/c8/d6fdc83f651e1c1460625cd25da61cd0.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* *==============================Nav============================= */
+nav
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 0px 10px 0px 10px;
+
+    background-color: rgba(165, 164, 164, 0.4);
+    box-shadow: 5px 5px 40px 0px black;
+
+    position: sticky;
+    top: 0;
+}
+
+nav img
+{
+    height: 4rem;
+}
+
+nav ul
+{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+nav ul a:nth-child(3)
+{
+    background-color: black;
+    box-shadow: 0px 5px 3px 0px black;
+    text-decoration: underline;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 12px;
+    transition: 0.2s;
+}
+
+nav ul a:hover
+{
+    background-color: black;
+    box-shadow: 0px 5px 3px 0px black;
+    text-decoration: underline;
+    transform: scale(1.02);
+}
+
+/* !==============================Nav=Over============================= */
+
+/* *==============================Main============================= */
+
+#main
+{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* *==============================Converter=Body============================ */
+
+#convertbody
+{
+    height: 70%;
+    width: 25%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+    border-radius: 20px;
+    border: solid black;
+
+    background-color: rgba(144, 144, 144, 0.3);
+    color: white;
+
+}
+
+#convertbody h1
+{
+    font-size: 2.3rem;
+}
+
+/* !==============================Converter=Body============================ */
+
+
+/* *==============================Input============================ */
+
+#input
+{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+
+    font-size: 1.2rem;
+}
+
+#inputdata
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#moni
+{
+    width: 100%;
+    padding: 6px;
+
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+
+#moni:focus
+{
+    border: solid black;
+}
+
+/* !==============================Input=Over=========================== */
+
+
+/* *==============================Btn============================ */
+
+#btn
+{
+    border: none;
+    border-radius: 10px;
+
+    width: 50%;
+    padding: 15px;
+
+    background-color: rgb(19, 28, 156);
+    color: white;
+
+    font-size: 1.6rem;
+    transition: 0.2s;
+}
+
+#btn:hover
+{
+    filter: saturate(200%);
+}
+
+#btn:active
+{
+    transform: translateY(2px)
+}
+/* !==============================Btn=Over=========================== */
+
+
+/* *==============================Output============================= */
+
+#output
+{
+    
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+
+    font-size: 1.2rem;
+}
+
+#outputdata
+{
+    
+    display: flex;
+    column-gap: 5px;
+}
+
+.colorgray
+{
+    color: grey;
+}
+
+.colorwhite
+{
+    color: white;
+}
+/* !=============================Output=Over============================ */
+
+/* !==============================Main=Over============================ */

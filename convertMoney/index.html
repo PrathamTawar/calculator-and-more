@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="https://static.vecteezy.com/system/resources/previews/019/817/385/original/money-exchange-icon-free-png.png" alt="">
+        <ul>
+            <a href="/JS-Projects/calc&more/calc/index.html"><li>Calculator</li></a>
+            <a href="/JS-Projects/calc&more/ageCalc/agecalc.html"><li>Age Calculator</li></a>
+            <a href="./index.html"><li>Currency Converter</li></a>
+        </ul>
+    </nav>
+
+
+
+    <div id="main">
+        <div id="convertbody">
+            <h1><u>Currency Converter</u></h1>
+            
+            <div id="input">
+                <h5><u>Amount</u>(in USD)</h5>
+                <div id="inputdata">
+                    <span id="dollasymbol"> $ </span>
+                    <input placeholder="Currency in USD*" type="number" id="moni" >
+                </div>
+            </div>
+
+            <button id="btn">Convert</button>
+            
+            <div id="output" >
+                <h5><u>Amount</u>(in INR)</h5>
+                <div id="outputdata">
+                    <span id="rupeesymbol"> ₹ </span>
+                    <p class="colorgray" id="toinr"> Converted ammount </p>
+                </div>
+            </div>
+
+            <div style="text-align: center; color: gray; font-size: 18px;">
+                Current rates* <br>
+                1 USD = 83.30 InR <br>
+                * subjected to change
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/d6/fd/c8/d6fdc83f651e1c1460625cd25da61cd0.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* *==============================Nav============================= */
+nav
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 0px 10px 0px 10px;
+
+    background-color: rgba(165, 164, 164, 0.4);
+    box-shadow: 5px 5px 40px 0px black;
+
+    position: sticky;
+    top: 0;
+}
+
+nav img
+{
+    height: 5rem;
+}
+
+nav ul
+{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+nav ul a:nth-child(2)
+{
+    background-color: black;
+    box-shadow: 0px 5px 3px 0px black;
+    text-decoration: underline;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 12px;
+    transition: 0.2s;
+}
+
+nav ul a:hover
+{
+    background-color: black;
+    box-shadow: 0px 5px 3px 0px black;
+    text-decoration: underline;
+    transform: scale(1.02);
+}
+
+/* !==============================Nav=Over============================= */
+
+
+/* *==============================Main============================= */
+
+#main
+{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* *==============================Age=Body============================ */
+
+#agebody
+{
+    height: 70%;
+    width: 25%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+    border-radius: 20px;
+    border: solid black;
+
+    background-color: rgba(144, 144, 144, 0.3);
+    color: white;
+
+}
+
+#agebody h1
+{
+    font-size: 3rem;
+}
+
+/* !==============================Age=Body============================ */
+
+
+/* *==============================Input============================ */
+
+#dob
+{
+    padding: 20px;
+
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    background: none;
+    border: solid black;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+}
+
+#dob:hover
+{
+    transform: scale(1.1);
+}
+
+#dob:active
+{
+    border: none;
+}
+
+/* !==============================Input=Over=========================== */
+
+
+/* *==============================Btn============================ */
+
+#btn
+{
+    padding: 20px;
+    width: 296.75px;
+
+    border-radius: 10px;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+}
+
+#btn:hover
+{
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: p;
+}
+
+#btn:active
+{
+    transform: translateY(10px);
+}
+
+/* !==============================Btn=Over=========================== */
+
+
+/* *==============================Result============================ */
+
+#result
+{
+    width: 296.75px;
+
+    padding: 20px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.colorwhite
+{
+    color: white;
+}
+.colorgray
+{
+    color: gray;
+}
+/* !==============================Result=Over=========================== */
+
+
+/* !==============================Main=Over============================ */
